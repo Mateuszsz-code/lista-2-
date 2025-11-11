@@ -1,0 +1,22 @@
+ccc = [1,1,1,2,3,4,5,6]
+
+i = 0
+while i < len(ccc)
+    print(f"pod ind {i} --- {ccc[i]}")
+    i += 1 
+    
+    
+for el in ccc:
+    print(el)
+    
+inp = int(input())
+cz_jest = False
+for el in ccc:
+    if inp == el:
+        cz_jest = True
+        break 
+    i += 1 
+if cz_jest:
+    print("jest")
+else:
+    print("nie jest")
